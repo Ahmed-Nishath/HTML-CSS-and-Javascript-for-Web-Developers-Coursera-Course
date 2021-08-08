@@ -1,0 +1,6 @@
+https://html.spec.whatwg.org/#phrasing-content
+git status
+git add .
+git git commit -m ""
+git push
+browser-sync start --server --directory --files "*"
