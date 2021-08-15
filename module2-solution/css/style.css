@@ -9,7 +9,7 @@ h1{
 h2{
     font-size: 125%;
     position: absolute; 
-    margin: 0px;
+    margin: -1px -1px 0px 0px;
     right:0px;
     border: black solid 1px;
     width: 180px;
