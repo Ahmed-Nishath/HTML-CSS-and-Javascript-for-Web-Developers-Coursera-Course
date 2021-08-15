@@ -9,10 +9,93 @@
 			border-radius:50px;
 		} 
 	</style>-->
+	<style>
+		.nn.mm{
+			color:darkgreen;
+		}
+		main > p{
+			color:darkorchid
+		}
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		#container{
+			background-color: cyan;
+			position: relative;
+			top: 60px;
+			margin-bottom: 100px
+		}
+
+		p{
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+		#p1{
+			background-color: brown;
+			position: relative;
+			top: 65px;
+			left: 65px;
+		}
+		#p2{
+			background-color: chartreuse;
+		}
+		#p3{
+			background-color: darkorange;
+			position:absolute;
+			top: 0;
+			left: 0;
+		}
+		#p4{
+			background-color: darkgray;
+		}
+		#pp1{
+			background-color: darkgreen;
+			width: 300px;
+			height: 300px;
+		}
+		#pp2{
+			background-color:gold;
+			width: 50;
+			height:50px;
+		}
+		@media (min-width:1200px){
+			#pp1{
+				width: 50%;
+			}
+			#pp2{
+				width: 150px;
+				height: 150px;
+			}
+		}
+		@media (min-width:992px) and (max-width:1199px){
+			#pp1{
+				width:100%;
+			}
+			#pp2{
+				width: 100px;
+				height: 100px;
+			}
+		}
+	</style>
 </head>
 <body>
-<h1>Hello Coursera!</h1>
-<main><p>NISHATH BE</p>
+<h1 class="nn mm">Hello Coursera!</h1>
+<main>NISHATH BE
 	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmGCKwsL-FqFrNLU9JXULsdg-8v-PZ4CZzLQ&usqp=CAU" width="400" height="300" alt="Black Eagle">
+<div id="container">
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+</div>
+</main>
+<div>
+	<p id="pp1"></p>
+	<p id="pp2"></p>
+</div>
 </body>
 </html>
